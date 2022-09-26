@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container{
+  border: 1.5px solid gray;
+  margin-top: 50px;
+}
+#column1{
+  background-color:rgb(247, 207, 213);
+  border-bottom: 15px solid rgb(214, 209, 209);
+  font-family:  san-serif;
+}
+#column2{
+  background-color: rgb(213, 236, 243);
+  font-family:  san-serif;
+}
+
+@media only screen and (min-width: 100px) {
+  /* For tablets: */
+
+  /* this will change the container class background to red when tablet*/
+
+  .col {
+      background-color: lavenderblush;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: will change the container class to orange*/
+
+  .container {
+      background-color: lightgray;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  /* For desktop: will change the container class to orange*/
+
+  .container{
+      background-color: lightgoldenrodyellow;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  /* For desktop: will change the container class to orange*/
+
+  .container{
+      background-color: black;
+  }
+}
+
+/* Orientation of landscape */
+
+@media only screen and (orientation: landscape) {
+  /* this will change the background to light blue when view is landscape */
+  .container{
+  background-color: lightblue;
+}
+
+}
