@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    width: 600px;
+    margin: 5px auto;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    padding: 20px;
+
+}
